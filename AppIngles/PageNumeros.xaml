@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIngles.PageNumeros" Title="Números">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_one"/>
+                    <StackLayout>
+                        <Label Text="Ingles: One" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: um" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_two"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Two" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Dois" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_three"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Three" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: tres" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_four"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Four" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Quatro" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_five"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Five" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Cinco" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_six"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Six" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Seis" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_seven"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Seven" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Sete" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_eight"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Eight" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Oito" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_nine"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Nine" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Nove" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_ten"/>
+                    <StackLayout>
+                        <Label Text="Ingles: Ten" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Portugues: Dez" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
